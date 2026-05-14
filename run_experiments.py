@@ -5,7 +5,7 @@ from datetime import datetime
 
 # ====================== 配置项 ======================
 # 项目根目录（所有实验结果将保存在这里）
-PROJECT_ROOT = "/path/to/your/drone_detection_project"
+PROJECT_ROOT = "./uav_small_experiments"
 # YOLOv8命令路径（如果yolo命令不在PATH中，改为完整路径，如"/home/user/miniconda3/bin/yolo"）
 YOLO_CMD = "yolo"
 # 训练超参数（与实验方案完全一致）
