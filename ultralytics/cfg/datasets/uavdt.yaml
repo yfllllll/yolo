@@ -1,0 +1,12 @@
+path: ../datasets/UAVDT_YOLO
+train: 
+  - images/train
+  - images/val
+val: images/test
+test: images/test
+
+nc: 3
+names:
+  0: car
+  1: truck
+  2: bus
